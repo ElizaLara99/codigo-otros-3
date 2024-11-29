@@ -1,4 +1,4 @@
-// Tenemos un li de productos
+// Tenemos un lista de productos
 
 const productos = [
   {nombre: "Zapato negro", tipo: "zapato", color: "negro", img: "./taco-negro.jpg"},
@@ -7,8 +7,8 @@ const productos = [
   {nombre: "Bota azul", tipo: "bota", color: "azul", img: "./bota-azul.jpg"},
   {nombre: "Zapato rojo", tipo: "zapato", color: "rojo", img: "./zapato-rojo.jpg"}
 ]
-
-const li = document.getElementsByName("lista-de-productos")
+//IGUALARLO CON EL QUERYSELECTOR
+const li = document.querySelector("[name='lista-de-productos']");
 const $i = document.querySelector('.input');
 
 for (let i = 0; i < productos.length; i++) {
